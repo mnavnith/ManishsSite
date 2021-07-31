@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.62em;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+
+.boss {
+  text-decoration: underline;
+}
+
+.top {
+  background-color: #E3FDFD;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.manish-img {
+  height: 400px;
+}
+
+.manish-photo {
+height: 300px;
+position: relative;
+}
+
+.skills-img{
+  border-radius: 100%;
+  display:inline-block;
+  height: 150px;
+  padding-right: 20px;
+}
+
+.skills-text{
+  width:300px;
+}
+
+.skill-table{
+  margin-left: auto;
+  margin-right: auto;
+
+}
