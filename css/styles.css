@@ -1,4 +1,5 @@
 body {
+  color:#40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -19,7 +20,7 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-    color:#11999E;
+  color: #11999E;
 }
 
 .boss {
@@ -32,26 +33,23 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container {
+.middle-container {}
 
-}
-
-.bottom {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+.bottom-container {
+  margin-top: 50px;
+background-color: #66BFBF;
 }
 
 .top-cloud {
   position: absolute;
-  height:150px;
+  height: 150px;
   right: 300px;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  height:150px;
+  height: 150px;
   left: 300px;
   bottom: 300px;
 }
@@ -61,28 +59,72 @@ h3 {
 }
 
 .manish-photo {
-height: 300px;
-position: relative;
+  height: 300px;
+  position: relative;
 }
 
-.skills-img{
+.skills-img {
   border-radius: 100%;
-  display:inline-block;
+  float: left;
   height: 150px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
-.skills-text{
-  width:300px;
+.sport-img {
+  border-radius: 100%;
+  float: right;
+  height: 150px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-.skill-table{
+.skills-text {
+  width: 500px;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-table {
   margin-left: auto;
   margin-right: auto;
-
 }
 
-.gavin{
+.gavin {
   font-weight: normal;
   line-height: 2;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link{
+  color: #11999E;
+}
+.copyright{
+  color:#EAF6F6;
 }
